@@ -22,8 +22,8 @@
 		33AF006524AC0E4300111742 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AF006424AC0E4200111742 /* ViewController.swift */; };
 		33AF006724AC0E7400111742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AF006624AC0E7400111742 /* Main.storyboard */; };
 		33AF006924AC0E9E00111742 /* OutsideviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AF006824AC0E9E00111742 /* OutsideviewViewController.swift */; };
-		33AF006B24AC0ED500111742 /* Outsideview.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AF006A24AC0ED500111742 /* Outsideview.storyboard */; };
-		33AF006D24AC0EF700111742 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AF006C24AC0EF700111742 /* SettingsViewController.swift */; };
+		33FD51DA24AD12E200828D0E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FD51D924AD12E200828D0E /* SettingsViewController.swift */; };
+		33FD51DC24AD131800828D0E /* Outsideview.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33FD51DB24AD131800828D0E /* Outsideview.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,8 +65,8 @@
 		33AF006424AC0E4200111742 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		33AF006624AC0E7400111742 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		33AF006824AC0E9E00111742 /* OutsideviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutsideviewViewController.swift; sourceTree = "<group>"; };
-		33AF006A24AC0ED500111742 /* Outsideview.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Outsideview.storyboard; path = "../../DaJanela-tela-principal/Da janela/Outsideview.storyboard"; sourceTree = "<group>"; };
-		33AF006C24AC0EF700111742 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = "../../DaJanela-tela-principal/Da janela/SettingsViewController.swift"; sourceTree = "<group>"; };
+		33FD51D924AD12E200828D0E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		33FD51DB24AD131800828D0E /* Outsideview.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Outsideview.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,11 +124,11 @@
 				0EB346C82499368400FED97A /* ColletionsViewController.swift */,
 				0E87C4D02489480F008AFFEA /* Collections.storyboard */,
 				33AF006824AC0E9E00111742 /* OutsideviewViewController.swift */,
-				33AF006A24AC0ED500111742 /* Outsideview.storyboard */,
+				33FD51DB24AD131800828D0E /* Outsideview.storyboard */,
 				33AF006224ABC1FD00111742 /* art.scnassets */,
 				0EB346CC2499395500FED97A /* FirstConversationViewController.swift */,
 				333CE50924ABB7DE0071926F /* FirstConversation.storyboard */,
-				33AF006C24AC0EF700111742 /* SettingsViewController.swift */,
+				33FD51D924AD12E200828D0E /* SettingsViewController.swift */,
 				0E87C4D224894842008AFFEA /* Settings.storyboard */,
 				0E87C4A124888817008AFFEA /* Assets.xcassets */,
 				0E87C4A324888817008AFFEA /* LaunchScreen.storyboard */,
@@ -263,7 +263,7 @@
 				33AF006324ABC1FD00111742 /* art.scnassets in Resources */,
 				0E87C4A224888817008AFFEA /* Assets.xcassets in Resources */,
 				0E87C4D12489480F008AFFEA /* Collections.storyboard in Resources */,
-				33AF006B24AC0ED500111742 /* Outsideview.storyboard in Resources */,
+				33FD51DC24AD131800828D0E /* Outsideview.storyboard in Resources */,
 				33AF006724AC0E7400111742 /* Main.storyboard in Resources */,
 				333CE50A24ABB7DE0071926F /* FirstConversation.storyboard in Resources */,
 				0E87C4D324894842008AFFEA /* Settings.storyboard in Resources */,
@@ -297,7 +297,7 @@
 				0EB346CD2499395500FED97A /* FirstConversationViewController.swift in Sources */,
 				0E87C49B24888816008AFFEA /* SceneDelegate.swift in Sources */,
 				33AF006524AC0E4300111742 /* ViewController.swift in Sources */,
-				33AF006D24AC0EF700111742 /* SettingsViewController.swift in Sources */,
+				33FD51DA24AD12E200828D0E /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
