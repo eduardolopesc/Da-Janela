@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--First Conversation View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="FirstConversationViewController" customModule="Da_janela" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U0K-SW-4ec">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BrB-h1-WRS">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                            </arscnView>
+                            <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hza-nb-1R9">
+                                <rect key="frame" x="20" y="663" width="374" height="179"/>
+                                <state key="normal" backgroundImage="oivizinha">
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="BotaoPodeEntrar:" destination="BV1-FR-VrT" eventType="touchUpInside" id="abV-yU-s2c"/>
+                                </connections>
+                            </button>
+                            <button alpha="0.69999999999999996" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oO1-4N-KL9">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <state key="normal" title=" " image="porta"/>
+                                <connections>
+                                    <action selector="BotaoDaPorta:" destination="BV1-FR-VrT" eventType="touchUpInside" id="OlE-3R-WRz"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Li8-CH-Myd">
+                                <rect key="frame" x="20" y="663" width="374" height="179"/>
+                                <state key="normal" backgroundImage="claroentrem">
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="EntremBotao:" destination="BV1-FR-VrT" eventType="touchUpInside" id="33H-fd-CDT"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Alinhe o celular com sua porta bem aberta e toque na tela para receber sua visita!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vbo-FK-xcB">
+                                <rect key="frame" x="113" y="104" width="188" height="356"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="17"/>
+                                <color key="textColor" red="0.088981144129999995" green="0.112644814" blue="0.28236874940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgd-FF-395">
+                                <rect key="frame" x="0.0" y="-6" width="414" height="902"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="BotãoCadeira" image="cadeira"/>
+                                <connections>
+                                    <action selector="Cadeira:" destination="BV1-FR-VrT" eventType="touchUpInside" id="S7r-Ak-q0N"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gkZ-cr-RHu" userLabel="BotãoCadeira2">
+                                <rect key="frame" x="0.0" y="-3" width="414" height="902"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="BotãoCadeira2" image="Captura de Tela 2020-06-30 às 02.29.58"/>
+                                <connections>
+                                    <action selector="Cadeira2:" destination="BV1-FR-VrT" eventType="touchUpInside" id="JCc-XF-oNh"/>
+                                </connections>
+                            </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Alinhe seu celular com algum lugar confortável para Kaline sentar e toque na tela" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PsL-mx-PJg">
+                                <rect key="frame" x="113" y="166" width="188" height="235"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="17"/>
+                                <color key="textColor" red="0.088981144129999995" green="0.112644814" blue="0.28236874940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="E claro, para Karine também!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mie-d6-wtf">
+                                <rect key="frame" x="113" y="135" width="188" height="235"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="17"/>
+                                <color key="textColor" red="0.088981144129999995" green="0.112644814" blue="0.28236874940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WkD-kl-sOP">
+                                <rect key="frame" x="20" y="663" width="374" height="179"/>
+                                <state key="normal" backgroundImage="oque">
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="Oque:" destination="BV1-FR-VrT" eventType="touchUpInside" id="mdg-3G-Lsc"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xqP-cl-i8Z" userLabel="Quelegal">
+                                <rect key="frame" x="20" y="663" width="374" height="179"/>
+                                <state key="normal" backgroundImage="quelegal">
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="Quelegal:" destination="BV1-FR-VrT" eventType="touchUpInside" id="NPT-Yn-XLW"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yhh-5l-ypZ" userLabel="trestiaras">
+                                <rect key="frame" x="20" y="663" width="374" height="179"/>
+                                <state key="normal" backgroundImage="trestiaras">
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="Trestiaras:" destination="BV1-FR-VrT" eventType="touchUpInside" id="WOl-y6-8UK"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rfn-EV-JIv" userLabel="ameiaideia">
+                                <rect key="frame" x="20" y="663" width="374" height="179"/>
+                                <state key="normal" backgroundImage="ameiaideia">
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="Ameiaideia:" destination="BV1-FR-VrT" eventType="touchUpInside" id="35J-Oo-lvP"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h6Z-J7-DTb" userLabel="euqueagradeco">
+                                <rect key="frame" x="20" y="668" width="374" height="174"/>
+                                <state key="normal" backgroundImage="euqueagradeco">
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="Euqueagradeco:" destination="BV1-FR-VrT" eventType="touchUpInside" id="nLE-aL-Di5"/>
+                                    <segue destination="r1o-yC-yYA" kind="presentation" modalPresentationStyle="fullScreen" id="HZG-ge-n6j"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="bottom" secondItem="Li8-CH-Myd" secondAttribute="bottom" constant="20" id="0PB-T6-7FY"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="bottom" secondItem="xqP-cl-i8Z" secondAttribute="bottom" constant="20" id="5Ku-th-OuZ"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="trailing" secondItem="rfn-EV-JIv" secondAttribute="trailing" constant="20" id="6iz-zy-XK6"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="bottom" secondItem="Hza-nb-1R9" secondAttribute="bottom" constant="20" id="EGt-X4-BKe"/>
+                            <constraint firstItem="WkD-kl-sOP" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" constant="20" id="ExK-St-YYx"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" id="GsS-dJ-CKf"/>
+                            <constraint firstItem="Li8-CH-Myd" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" constant="20" id="P0c-b6-5xS"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="trailing" secondItem="Yhh-5l-ypZ" secondAttribute="trailing" constant="20" id="QQT-Jg-IcN"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="bottom" secondItem="rfn-EV-JIv" secondAttribute="bottom" constant="20" id="Qmt-Uj-rfx"/>
+                            <constraint firstItem="Hza-nb-1R9" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" constant="20" id="Srm-L6-b07"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="trailing" secondItem="Li8-CH-Myd" secondAttribute="trailing" constant="20" id="UhP-be-wZQ"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="trailing" secondItem="h6Z-J7-DTb" secondAttribute="trailing" constant="20" id="Upz-nX-v01"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="bottom" secondItem="fQZ-KI-GVf" secondAttribute="bottom" id="VpT-BR-CcM"/>
+                            <constraint firstItem="rfn-EV-JIv" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" constant="20" id="WhA-Md-1J2"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="trailing" secondItem="fQZ-KI-GVf" secondAttribute="trailing" id="XyZ-9z-H8e"/>
+                            <constraint firstItem="xqP-cl-i8Z" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" constant="20" id="acZ-Ef-PUT"/>
+                            <constraint firstItem="h6Z-J7-DTb" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" constant="20" id="amG-1P-JTy"/>
+                            <constraint firstItem="Yhh-5l-ypZ" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" constant="20" id="dGB-P1-qxf"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="bottom" secondItem="WkD-kl-sOP" secondAttribute="bottom" constant="20" id="dev-Q0-sDE"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="bottom" secondItem="h6Z-J7-DTb" secondAttribute="bottom" constant="20" id="fE4-QL-hZ2"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="trailing" secondItem="WkD-kl-sOP" secondAttribute="trailing" constant="20" id="h8g-bd-Wu8"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="trailing" secondItem="xqP-cl-i8Z" secondAttribute="trailing" constant="20" id="iCX-6M-FiN"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="bottom" secondItem="Yhh-5l-ypZ" secondAttribute="bottom" constant="20" id="mz2-sa-H4F"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="top" secondItem="U0K-SW-4ec" secondAttribute="top" id="rJc-2c-zQA"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="trailing" secondItem="Hza-nb-1R9" secondAttribute="trailing" constant="20" id="wxb-Zl-CMU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
+                    </view>
+                    <connections>
+                        <outlet property="BotaoAmei" destination="rfn-EV-JIv" id="l4e-ND-rPy"/>
+                        <outlet property="BotaoEuque" destination="h6Z-J7-DTb" id="eur-f6-fHd"/>
+                        <outlet property="BotaoOque" destination="WkD-kl-sOP" id="PBC-gQ-Vxf"/>
+                        <outlet property="BotaoPorta" destination="oO1-4N-KL9" id="g6p-th-mWJ"/>
+                        <outlet property="BotaoQuelegal" destination="xqP-cl-i8Z" id="Ldt-mv-br4"/>
+                        <outlet property="BotaoTresTiaras" destination="Yhh-5l-ypZ" id="jLK-zP-cUO"/>
+                        <outlet property="BotãoCadeira" destination="mgd-FF-395" id="rkh-8J-olD"/>
+                        <outlet property="BotãoCadeira2" destination="gkZ-cr-RHu" id="7B9-Kx-ajx"/>
+                        <outlet property="Entrem" destination="Li8-CH-Myd" id="lHz-oJ-VjM"/>
+                        <outlet property="LabelCadeira1" destination="PsL-mx-PJg" id="hEO-mq-Xox"/>
+                        <outlet property="MensagemPorta" destination="vbo-FK-xcB" id="3kC-qC-h86"/>
+                        <outlet property="PodeEntrar" destination="Hza-nb-1R9" id="Vje-VE-NmS"/>
+                        <outlet property="labelCadeira2" destination="mie-d6-wtf" id="le4-BM-ybD"/>
+                        <outlet property="sceneView" destination="BrB-h1-WRS" id="5nT-qQ-ynl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="LZc-g4-OCT">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="r1o-yC-yYA" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7ze-md-DYi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="669" y="354"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Captura de Tela 2020-06-30 às 02.29.58" width="750" height="1612"/>
+        <image name="ameiaideia" width="321" height="179"/>
+        <image name="cadeira" width="500" height="1075"/>
+        <image name="claroentrem" width="321" height="179"/>
+        <image name="euqueagradeco" width="312" height="174"/>
+        <image name="oivizinha" width="321" height="179"/>
+        <image name="oque" width="321" height="179"/>
+        <image name="porta" width="591" height="1280"/>
+        <image name="quelegal" width="321" height="179"/>
+        <image name="trestiaras" width="321" height="179"/>
+    </resources>
+</document>
